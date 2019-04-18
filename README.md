@@ -47,5 +47,5 @@ Run replication
 
 ```bash
 sh sysvolrepl.sh
-``
+```
 
