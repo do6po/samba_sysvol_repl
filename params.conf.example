@@ -1,4 +1,4 @@
-USERNAME="user"
+USERNAME="root"
 SERVERNAME="dc2.example.com"
 SYSVOLPATH="/var/lib/samba/sysvol/"
 
