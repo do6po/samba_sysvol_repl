@@ -1,0 +1,9 @@
+USERNAME="user"
+SERVERNAME="dc2.example.com"
+SYSVOLPATH="/var/lib/samba/sysvol/"
+
+SSH_COMMAND="ssh $USERNAME@$SERVERNAME"
+SAMBASYSVOLRESET="samba-tool ntacl sysvolreset"
+
+RSYNC_COMMAND="rsync -XAavzu --delete-after  --progress --stats"
+
