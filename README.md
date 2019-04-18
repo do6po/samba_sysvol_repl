@@ -30,6 +30,7 @@ Reload ssh :
 service ssh reload
 ```
 
+Install script :
 ```bash
 git clone https://github.com/do6po/samba_sysvol_repl
 cd samba_sysvol_repl
@@ -37,14 +38,12 @@ cd samba_sysvol_repl
 cp params.conf.example params.conf
 ```
 
-Edit params.conf
+Edit params.conf :
 ```bash
 nano params.conf
 ```
 
-
-Run replication
-
+Run replication :
 ```bash
 sh sysvolrepl.sh
 ```
